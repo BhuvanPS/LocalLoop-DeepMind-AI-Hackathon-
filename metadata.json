@@ -1,0 +1,10 @@
+{
+  "name": "Cloth Sales & SMB Manager",
+  "description": "An interactive clothing sales manager bridging consumers with local SMBs through AI styling, custom image visualization, and intelligent market analysis.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

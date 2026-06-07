@@ -1,0 +1,51 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Default-deny catch-all rule as required by Phase 4 Global Safety Net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+    
+    function isValidId(id) {
+      return id is string && id.size() <= 128;
+    }
+
+    function isValidConsumer(data) {
+      return data.keys().hasAll(['id', 'name', 'email', 'phone', 'age', 'photo', 'createdAt'])
+        && data.keys().size() == 7
+        && data.id is string && data.id.size() <= 128
+        && data.name is string && data.name.size() > 0 && data.name.size() <= 250
+        && data.email is string && data.email.size() > 0 && data.email.size() <= 250
+        && data.phone is string && data.phone.size() > 0 && data.phone.size() <= 100
+        && data.age is int && data.age >= 1 && data.age <= 150
+        && data.photo is string && data.photo.size() > 0 && data.photo.size() <= 15000000;
+    }
+
+    function isValidSmb(data) {
+      return data.keys().hasAll(['id', 'name', 'ownerEmail', 'locationName', 'latitude', 'longitude', 'targetAudience', 'targetLocalities'])
+        && data.keys().size() == 8
+        && data.id is string && data.id.size() <= 128
+        && data.name is string && data.name.size() > 0 && data.name.size() <= 250
+        && data.ownerEmail is string && data.ownerEmail.size() > 0 && data.ownerEmail.size() <= 250
+        && data.locationName is string && data.locationName.size() > 0 && data.locationName.size() <= 500
+        && data.latitude is number
+        && data.longitude is number
+        && data.targetAudience is string && data.targetAudience.size() > 0 && data.targetAudience.size() <= 500
+        && data.targetLocalities is list;
+    }
+
+    match /consumers/{id} {
+      allow read: if true; // Let local merchants match profiles or read layouts
+      allow create: if isValidConsumer(request.resource.data) && request.resource.data.id == id;
+      allow update: if isValidConsumer(request.resource.data) && request.resource.data.id == id;
+      allow delete: if false;
+    }
+
+    match /smbs/{id} {
+      allow read: if true; // Let clients find boutiques
+      allow create: if isValidSmb(request.resource.data) && request.resource.data.id == id;
+      allow update: if isValidSmb(request.resource.data) && request.resource.data.id == id;
+      allow delete: if false;
+    }
+  }
+}

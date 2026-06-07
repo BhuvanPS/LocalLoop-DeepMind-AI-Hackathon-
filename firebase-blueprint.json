@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "ConsumerRegistration": {
+      "title": "Consumer Registration",
+      "description": "User profile with contact info and physical outfit photo.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Record ID" },
+        "name": { "type": "string", "description": "Full Name" },
+        "email": { "type": "string", "description": "Email address" },
+        "phone": { "type": "string", "description": "Telephone contact" },
+        "age": { "type": "integer", "description": "Age of the user" },
+        "photo": { "type": "string", "description": "Base64 image representation of a full portrait photo" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Date of registration" }
+      },
+      "required": ["id", "name", "email", "phone", "age", "photo", "createdAt"]
+    },
+    "SmbRegistration": {
+      "title": "SMB Registration",
+      "description": "Boutique registration details for storefront merchants.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Store ID" },
+        "name": { "type": "string", "description": "Store Name" },
+        "ownerEmail": { "type": "string", "description": "Merchant email" },
+        "locationName": { "type": "string", "description": "Merchant storefront address" },
+        "latitude": { "type": "number", "description": "Latitude coordinate" },
+        "longitude": { "type": "number", "description": "Longitude coordinate" },
+        "targetAudience": { "type": "string", "description": "Target demographics target audience representation" },
+        "targetLocalities": { "type": "array", "description": "Target neighborhood coverages" }
+      },
+      "required": ["id", "name", "ownerEmail", "locationName", "latitude", "longitude", "targetAudience", "targetLocalities"]
+    }
+  },
+  "firestore": {
+    "consumers/{id}": {
+      "schema": "ConsumerRegistration",
+      "description": "Unique registration records for local buyers."
+    },
+    "smbs/{id}": {
+      "schema": "SmbRegistration",
+      "description": "Registered boutique storefront records."
+    }
+  }
+}

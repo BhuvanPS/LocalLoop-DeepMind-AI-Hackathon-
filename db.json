@@ -1,0 +1,538 @@
+{
+  "smbs": [
+    {
+      "id": "smb-1",
+      "name": "The Retro Stitch & Classic",
+      "ownerEmail": "classic@retro-stitch.com",
+      "locationName": "345 Sutter St, San Francisco, CA (Union Sq)",
+      "latitude": 37.7891,
+      "longitude": -122.4068,
+      "targetAudience": "Young Professionals & Vintage Lovers",
+      "targetLocalities": [
+        "Union Square",
+        "Nob Hill",
+        "Chinatown",
+        "Financial District"
+      ]
+    },
+    {
+      "id": "smb-2",
+      "name": "NeonWave Streetwear",
+      "ownerEmail": "contact@neonwave.io",
+      "locationName": "1420 Haight St, San Francisco, CA (Haight-Ashbury)",
+      "latitude": 37.7699,
+      "longitude": -122.4468,
+      "targetAudience": "Gen-Z & Skate Culture",
+      "targetLocalities": [
+        "Haight-Ashbury",
+        "Western Addition",
+        "Richmond",
+        "Mission District"
+      ]
+    },
+    {
+      "id": "smb-3",
+      "name": "Bohema Linen Craft",
+      "ownerEmail": "hello@bohemalinen.com",
+      "locationName": "3250 24th St, San Francisco, CA (Mission District)",
+      "latitude": 37.7523,
+      "longitude": -122.4184,
+      "targetAudience": "Conscious Consumers & Minimalist Eco Enthusiasts",
+      "targetLocalities": [
+        "Mission District",
+        "Noe Valley",
+        "Castro",
+        "Potrero Hill"
+      ]
+    },
+    {
+      "id": "smb_1780716077904",
+      "name": "retro shop",
+      "ownerEmail": "bhuvan@gmail.com",
+      "locationName": "76 man road bullen",
+      "latitude": 37.7523,
+      "longitude": -122.4184,
+      "targetAudience": "Young people",
+      "targetLocalities": [
+        "Doncaster"
+      ]
+    },
+    {
+      "id": "smb_1780716420404",
+      "name": "retro shop",
+      "ownerEmail": "bhuvan@gmail.com",
+      "locationName": "76a bulleen",
+      "latitude": 37.7629,
+      "longitude": -122.435,
+      "targetAudience": "Young people",
+      "targetLocalities": [
+        "Doncaster"
+      ]
+    },
+    {
+      "id": "smb_1780716634389",
+      "name": "Mission Studio",
+      "ownerEmail": "team@mission.com",
+      "locationName": "76a bulleen,CA",
+      "latitude": 37.7523,
+      "longitude": -122.4184,
+      "targetAudience": "Young people",
+      "targetLocalities": [
+        "Mission District",
+        "Noe Valley"
+      ]
+    },
+    {
+      "id": "smb_business_chic",
+      "name": "Business Chic",
+      "ownerEmail": "chic@businesswear.com",
+      "locationName": "555 California St, San Francisco, CA (Financial District)",
+      "latitude": 37.794,
+      "longitude": -122.4014,
+      "targetAudience": "Professionals seeking sharp, elegant corporate and business wear",
+      "targetLocalities": [
+        "Financial District",
+        "Union Square",
+        "Nob Hill"
+      ]
+    },
+    {
+      "id": "smb_party_animal",
+      "name": "Party Animal",
+      "ownerEmail": "wild@partyapparels.com",
+      "locationName": "1015 Folsom St, San Francisco, CA (SoMa/Mission)",
+      "latitude": 37.7719,
+      "longitude": -122.4087,
+      "targetAudience": "Vibrant nightgoers, club enthusiasts, and party attire designers",
+      "targetLocalities": [
+        "Mission District",
+        "Castro",
+        "Haight-Ashbury"
+      ]
+    }
+  ],
+  "catalogues": [
+    {
+      "id": "sku-1-1",
+      "smbId": "smb-1",
+      "name": "Classic Beige Trench Coat",
+      "category": "Outerwear",
+      "price": 129.99,
+      "sku": "RTSC-TRNCH-01",
+      "stock": 12,
+      "imageUrl": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80",
+      "styleTags": [
+        "classic",
+        "minimalist",
+        "retro",
+        "office"
+      ],
+      "description": "A double-breasted cotton canvas trench coat with structural lining and tortoise-shell buttons. Waterproof and timeless.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": "sku-1-2",
+      "smbId": "smb-1",
+      "name": "Silk Cream Button-Down Shirt",
+      "category": "Tops",
+      "price": 64.5,
+      "sku": "RTSC-SILK-CRM",
+      "stock": 25,
+      "imageUrl": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=500&q=80",
+      "styleTags": [
+        "classic",
+        "minimalist",
+        "elegant",
+        "office"
+      ],
+      "description": "100% natural mulberry silk shirt with a subtle satin finish and lightweight collar details.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "sku-1-3",
+      "smbId": "smb-1",
+      "name": "High-Waist Pleated Grey Trousers",
+      "category": "Bottoms",
+      "price": 78,
+      "sku": "RTSC-TRSR-GRY",
+      "stock": 15,
+      "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80",
+      "styleTags": [
+        "classic",
+        "minimalist",
+        "vintage",
+        "tailored"
+      ],
+      "description": "Tailored fit wide-leg trousers crafted from fine wool-blend. Features front pleats, belt loops, and back pockets.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "sku-2-1",
+      "smbId": "smb-2",
+      "name": "Neon Oversized Graphic Hoodie",
+      "category": "Tops",
+      "price": 75,
+      "sku": "NWVE-HD-GRPH",
+      "stock": 18,
+      "imageUrl": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80",
+      "styleTags": [
+        "trendy",
+        "bold",
+        "street-wear",
+        "casual"
+      ],
+      "description": "Thick premium cotton fleece hoodie featuring a glow-in-the-dark holographic neon wave print on the back.",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    {
+      "id": "sku-2-2",
+      "smbId": "smb-2",
+      "name": "Distressed Denim Cargo Pants",
+      "category": "Bottoms",
+      "price": 95,
+      "sku": "NWVE-CRG-DENIM",
+      "stock": 8,
+      "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+      "styleTags": [
+        "trendy",
+        "bold",
+        "street-wear",
+        "grunge"
+      ],
+      "description": "Heavyweight acid-washed denim trousers with six tactical cargo pockets and raw distressed hems.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "sku-3-1",
+      "smbId": "smb-3",
+      "name": "Misty Blue Linen Slip Dress",
+      "category": "Dresses",
+      "price": 110,
+      "sku": "BHLN-SLP-MSTY",
+      "stock": 10,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80",
+      "styleTags": [
+        "casual",
+        "minimalist",
+        "relaxed",
+        "bohemian"
+      ],
+      "description": "Pure Belgian washed linen slip dress in misty sky hue. Fluid outline with adjustable straps for ultimate breathing comfort.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "sku-3-2",
+      "smbId": "smb-3",
+      "name": "Crochet Fringe Summer Cardigan",
+      "category": "Outerwear",
+      "price": 85,
+      "sku": "BHLN-CRT-FRNGE",
+      "stock": 6,
+      "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&q=80",
+      "styleTags": [
+        "bohemian",
+        "casual",
+        "relaxed",
+        "earthy"
+      ],
+      "description": "Hand-knit beige open cardigan with delicate knit meshes and tassels at the bottom hem.",
+      "sizes": [
+        "XS/S",
+        "M/L"
+      ]
+    },
+    {
+      "name": "suits",
+      "category": "Tops",
+      "price": 100,
+      "sku": "sui-123",
+      "stock": 5,
+      "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&q=80",
+      "styleTags": [
+        "business chic"
+      ],
+      "description": "cotton soft for women pretty",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "id": "sku_1780716743723",
+      "smbId": "smb_1780716634389"
+    },
+    {
+      "id": "sku_bc_blazer",
+      "smbId": "smb_business_chic",
+      "name": "Executive Trim Blazer",
+      "category": "Outerwear",
+      "price": 145,
+      "sku": "BC-BLZR-EXEC",
+      "stock": 15,
+      "imageUrl": "https://images.unsplash.com/photo-1548624149-bc9b9c6d0d63?w=500&q=80",
+      "styleTags": [
+        "classic",
+        "office",
+        "elegant",
+        "business"
+      ],
+      "description": "A premium slim-fit structured blazer in black charcoal hue, perfect for boardrooms and professional settings.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": "sku_bc_trouser",
+      "smbId": "smb_business_chic",
+      "name": "Tailored Smart Work Trouser",
+      "category": "Bottoms",
+      "price": 85,
+      "sku": "BC-TRSR-SMART",
+      "stock": 20,
+      "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80",
+      "styleTags": [
+        "classic",
+        "office",
+        "tailored",
+        "business"
+      ],
+      "description": "High-waist pleated grey slacks with tapered legs for a sharp professional look.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "sku_bc_shirt",
+      "smbId": "smb_business_chic",
+      "name": "Sharp Collar Oxford Shirt",
+      "category": "Tops",
+      "price": 59.99,
+      "sku": "BC-SHT-COLLAR",
+      "stock": 18,
+      "imageUrl": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=500&q=80",
+      "styleTags": [
+        "office",
+        "classic",
+        "minimalist",
+        "business"
+      ],
+      "description": "Premium cotton woven white button-down shirt with structured stiff collar stays.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": "sku_bc_dress",
+      "smbId": "smb_business_chic",
+      "name": "Corporate Midi Sheath Dress",
+      "category": "Dresses",
+      "price": 115.00,
+      "sku": "BC-DRS-SHEATH",
+      "stock": 12,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80",
+      "styleTags": [
+        "office",
+        "elegant",
+        "business",
+        "chic"
+      ],
+      "description": "An elegant, double-lined structured midi dress in executive emerald green, designed for standard corporate and professional wear.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "sku_bc_heels",
+      "smbId": "smb_business_chic",
+      "name": "Premium Leather Office Pumps",
+      "category": "Shoes",
+      "price": 120.00,
+      "sku": "BC-SH-PUMPS",
+      "stock": 14,
+      "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&q=80",
+      "styleTags": [
+        "office",
+        "classic",
+        "leather",
+        "business"
+      ],
+      "description": "Classic high-end black patent leather pumps with comfortable block heels tailored for the modern workplace.",
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "id": "sku_bc_bag",
+      "smbId": "smb_business_chic",
+      "name": "Structured Executive Leather Satchel",
+      "category": "Accessories",
+      "price": 195.00,
+      "sku": "BC-ACC-SATCHEL",
+      "stock": 10,
+      "imageUrl": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=500&q=80",
+      "styleTags": [
+        "office",
+        "elegant",
+        "leather",
+        "business"
+      ],
+      "description": "A premium handcrafted full-grain calf leather satchel bag with dedicated compartments for corporate needs.",
+      "sizes": [
+        "O/S"
+      ]
+    },
+    {
+      "id": "sku_pa_dress",
+      "smbId": "smb_party_animal",
+      "name": "Sequined Nightout Dress",
+      "category": "Dresses",
+      "price": 120,
+      "sku": "PA-DRS-SEQ",
+      "stock": 10,
+      "imageUrl": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500&q=80",
+      "styleTags": [
+        "bold",
+        "trendy",
+        "wild",
+        "party"
+      ],
+      "description": "A sparkling, double-lined deep emerald sequined slip dress. Highly reflective and perfect for parties.",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": "sku_pa_bomber",
+      "smbId": "smb_party_animal",
+      "name": "Holographic Rave Bomber Jacket",
+      "category": "Outerwear",
+      "price": 110,
+      "sku": "PA-JKT-HOLO",
+      "stock": 8,
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&q=80",
+      "styleTags": [
+        "bold",
+        "trendy",
+        "street-wear",
+        "party"
+      ],
+      "description": "A lightweight water-resistant party jacket reflecting brilliant iridescent hues under strobe lights.",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": "sku_pa_top",
+      "smbId": "smb_party_animal",
+      "name": "Glitter Mesh Crop Top",
+      "category": "Tops",
+      "price": 45,
+      "sku": "PA-TOP-MESH",
+      "stock": 22,
+      "imageUrl": "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?w=500&q=80",
+      "styleTags": [
+        "bold",
+        "trendy",
+        "casual",
+        "party"
+      ],
+      "description": "Form-fitting shiny silver knit crop top with see-through mesh sleeve overlays.",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    }
+  ],
+  "discounts": [
+    {
+      "id": "disc-1",
+      "smbId": "smb-2",
+      "storeName": "NeonWave Streetwear",
+      "skuId": "sku-2-1",
+      "name": "Neon Oversized Graphic Hoodie - Street Blast Sale",
+      "originalPrice": 75,
+      "discountPercent": 15,
+      "discountedPrice": 63.75,
+      "targetLocalities": [
+        "Haight-Ashbury",
+        "Mission District"
+      ],
+      "status": "approved",
+      "socialPromos": {
+        "facebook": "🔥 Slashed prices on local drip! Support your independent corner and grab our Neon Waves Hoodie for only $63.75 (saving 15%! Undercutting fast fashion megastores). Available today in Haight-Ashbury!",
+        "instagram": "Street culture isn't found in corporate warehouses. 🛹 Local drop: NW Holographic Hoodie now 15% OFF for a limited time. Hand-pressed with glow ink. Swipe up to claim your store pickup!",
+        "tiktok": "Tired of fast fashion polyester garbage? 🤢 Neon Wave runs real cotton! Grab our glowing oversized hoodies at 15% discount. Support local, undercut the giants! #streetwear #localbusiness #outfitideas",
+        "imagePrompt": "A sleek flat lay of a streetwear outfit featuring a neon-glowing printed black hoodie resting on acid-wash cargo denim with concrete flooring background, shot on an iPhone."
+      }
+    },
+    {
+      "skuId": "sku-1-1",
+      "name": "Classic Beige Trench Coat - Flash 16% Undercut Sale",
+      "originalPrice": 129.99,
+      "discountPercent": 16,
+      "discountedPrice": 109.19,
+      "targetLocalities": [
+        "Union Square",
+        "Nob Hill",
+        "Chinatown",
+        "Financial District"
+      ],
+      "status": "approved",
+      "socialPromos": {
+        "facebook": "Hey SF! Skip the overpriced department store markups around Union Square and support your local boutique instead. The Retro Stitch & Classic is bringing you the ultimate wardrobe staple: our Classic Beige Trench Coat. Get that high-end Nob Hill sophistication without the luxury price tag. We have just marked it down from $129.99 to only $109.19—that is 16% off! Whether you are commuting through the Financial District or grabbing weekend dim sum in Chinatown, this timeless piece has you covered. Swing by and grab yours today before they are gone!",
+        "instagram": "The coat that does the styling for you. Meet the Classic Beige Trench Coat from The Retro Stitch & Classic. Tailored silhouette, premium feel, and a timeless neutral hue designed to elevate your everyday SF look. Now 16% OFF—get yours for $109.19 (originally $129.99). Tap the link in bio or visit us in-store to secure yours. #RetroStitch #TrenchCoatSeason #SFFashion #UnionSquareSF #SanFranciscoStyle #MinimalistAesthetic #ChicLayering #BoutiqueShopping",
+        "tiktok": "Vocal Hook: Stop scrolling! If you are about to drop three hundred dollars on a basic trench coat at a major brand in Union Square, let me save your wallet. Screen Prompt: POV: Finding the perfect classic beige trench in SF for only $109.19. Vocal: This is the ultimate IT-girl trench from The Retro Stitch & Classic. It is giving quiet luxury without the luxury price tag. Run, do not walk, to get 16% off right now!",
+        "imagePrompt": "High-end fashion photography of a classic beige double-breasted trench coat with a structured collar and waist belt, styled elegantly on a model. Background is a soft-focus street view of San Francisco's historic Nob Hill neighborhood during golden hour. Editorial style, cinematic lighting, photorealistic, 8k, professional boutique advertisement."
+      },
+      "id": "disc_1780713368090",
+      "smbId": "smb-1",
+      "storeName": "The Retro Stitch & Classic"
+    }
+  ]
+}
